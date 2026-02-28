@@ -11,5 +11,6 @@
 
         public string? ImageUrl {get; set;}
 
+        public List<Booking> Booking { get; set; } = new();
     }
 }

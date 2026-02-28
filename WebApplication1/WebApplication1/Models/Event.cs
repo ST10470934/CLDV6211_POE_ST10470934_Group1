@@ -13,5 +13,7 @@
 
         public int? VenueID { get; set; }
         public Venue? Venue { get; set; }
+
+        public List<Booking> Booking { get; set; } = new();
     }
 }

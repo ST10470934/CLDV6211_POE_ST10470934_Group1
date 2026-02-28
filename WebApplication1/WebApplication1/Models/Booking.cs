@@ -11,5 +11,6 @@
         public Venue? Venue { get; set; }
 
         public DateTime BookingDate { get; set; } = DateTime.Now;
+
     }
 }
