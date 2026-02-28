@@ -1,8 +1,26 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+<div class=" blocks-wrapper">
 <div class="text-center">
-    <h1 class="display-4">Welcome to EventEase</h1>
+    <h1 class="display-4"><strong>Welcome to EventEase</strong></h1>
     
+</div>
+</div>
+<div class="blocks-wrapper">
+    <div class="database-block">
+<a asp-controller="Event" asp-action="Index">
+    <img src="~/images/events_icon.png">
+</a>
+</div>
+    <div class="database-block">
+<a asp-controller="Booking" asp-action="Index">
+    <img src="~/images/booking_icon.png">
+</a>
+</div>
+    <div class="database-block">
+    <a asp-controller="Venue" asp-action="Index">
+        <img src="~/images/venue_icon.png">
+    </a>
+</div>
 </div>

@@ -29,3 +29,34 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.database-block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: dimgrey;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(8, 8, 8);
+    text-decoration : none;
+    color : inherit;
+
+}
+
+    .database-block img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgb(8, 8, 8);
+    }
+.blocks-wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    background-color : lightgray;
+}
+.database-text h3 {
+    margin: 0;
+}
